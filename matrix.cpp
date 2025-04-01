@@ -87,7 +87,7 @@ int Matrix::sum_diagonal_major() const {
 
 
 
-int Matrix::sum_diag_minor() const {
+int Matrix::sum_diagonal_minor() const {
     std::size_t N = data.size();
     int sum = 0;
     for (std::size_t i = 0; i < N; ++i) {
