@@ -128,7 +128,7 @@ int main() {
         std::cout << "Problem 7: Matrix 1 after updating value:\n";
         matrix1.display_matrix();
     }
-    // Updating a Single Value (mat 2)
+
     std::cout << "\nEnter row index for new value update for (Matrix 2): ";
     std::cin >> row;
     std::cout << "\nEnter col index for new value update for (Matrix 2): ";

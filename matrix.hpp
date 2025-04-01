@@ -4,11 +4,11 @@
 #include <cstdint>
 #include <vector>
 
-#include <string> // 
+#include <string>  
 
 class Matrix {
-private: //
-    std::vector<std::vector<int>> data; //
+private: 
+    std::vector<std::vector<int>> data; 
 
 public:
     Matrix(std::size_t N);
@@ -26,7 +26,6 @@ public:
     void display_matrix() const;
 };
 
-//
 bool read_matrix_file(const std::string &filename, Matrix &matrix1, Matrix &matrix2);
 
 #endif // __MATRIX_HPP__

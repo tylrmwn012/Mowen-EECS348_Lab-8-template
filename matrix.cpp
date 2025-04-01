@@ -5,10 +5,11 @@
 #include <iomanip>
 #include <stdexcept>    
 
-Matrix::Matrix(std::size_t N) : data(N, std::vector<int>(N, 0)) {}
-
-Matrix::Matrix(std::vector<std::vector<int>> nums) : data(std::move(nums)) {}
-
+Matrix::Matrix(std::size_t N) {
+    data = std::vector<std::vector<int>>(N, std::vector<int>(N, 0));
+}
+Matrix::Matrix(std::vector<std::vector<int>> nums) : data(nums) {
+}
 
 
 int Matrix::get_size() const {
