@@ -43,9 +43,9 @@ int main() {
 
     // Problem 4
     /* Implement a function to calculate and display the sum of the main and secondary diagonal elements of a matrix. */
-    std::cout << "\nProblme 4: Sum of Major Diagonal (Matrix 1): " << matrix1.sum_diag_major() << std::endl;
+    std::cout << "\nProblme 4: Sum of Major Diagonal (Matrix 1): " << matrix1.sum_diagonal_major() << std::endl;
     std::cout << "Problem 4: Sum of Minor Diagonal (Matrix 1): " << matrix1.sum_diag_minor() << std::endl;
-    std::cout << "\nProblme 4: Sum of Major Diagonal (Matrix 2): " << matrix2.sum_diag_major() << std::endl;
+    std::cout << "\nProblme 4: Sum of Major Diagonal (Matrix 2): " << matrix2.sum_diagonal_major() << std::endl;
     std::cout << "Problme 4: Sum of Minor Diagonal (Matrix 2): " << matrix2.sum_diag_minor() << std::endl;
 
 

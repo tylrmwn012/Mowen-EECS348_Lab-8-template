@@ -77,7 +77,7 @@ Matrix Matrix::operator*(const Matrix &rhs) const {
 
 
 
-int Matrix::sum_diag_major() const {
+int Matrix::sum_diagonal_major() const {
     int sum = 0;
     for (std::size_t i = 0; i < data.size(); ++i) {
         sum += data[i][i]; 
